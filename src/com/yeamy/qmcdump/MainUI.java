@@ -101,7 +101,7 @@ public class MainUI extends Application {
 			}
 		});
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("NcmDump");
+		primaryStage.setTitle("QmcDump");
 		primaryStage.show();
 	}
 
