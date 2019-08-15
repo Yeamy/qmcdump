@@ -38,7 +38,7 @@ public class MainUI extends Application {
 
 	@Override
 	public void stop() throws Exception {
-		pool.shutdown();
+		pool.shutdownNow();
 		super.stop();
 	}
 
